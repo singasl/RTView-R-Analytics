@@ -1,4 +1,4 @@
-setwd("C:/Users/m/Desktop/SL/GitHub/Repositories/RTView-R-Analytics/")
+setwd("C:/Users/GitHub/Repositories/RTView-R-Analytics/")
 #########################
 #
 #  movingAvg calculates a moving average for the input vector x
