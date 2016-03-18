@@ -1,8 +1,8 @@
 # Set your working directory
-setwd("C:/Users/m/Desktop/SL/GitHub/Repositories/RTView-R-Analytics/")
+setwd("C:/Users//GitHub/Repositories/RTView-R-Analytics/")
 
 # Read data from BWMon dataserver
-hosts <- read.delim("http://192.168.200.105/bwmon_rtvquery/cache/HostStats/current?fmt=text")
+hosts <- read.delim("http://myhost/bwmon_rtvquery/cache/HostStats/current?fmt=text")
 dim(hosts)
 names(hosts)
 hosts[,23] = as.numeric(as.character(hosts[,23]))
